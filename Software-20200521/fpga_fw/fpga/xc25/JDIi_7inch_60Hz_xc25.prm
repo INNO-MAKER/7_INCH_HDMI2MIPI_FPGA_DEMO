@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o D:\work\hdmi_mipi_7inch\target_60Hz\force_1080p\xc25\xc25_p1200p1080\sp605_ddr_test\ddr_test//JDIi_7inch_60Hz_xc25 -s 1024 -u 0000 D:/work/hdmi_mipi_7inch/target_60Hz/force_1080p/xc25/xc25_p1200p1080/sp605_ddr_test/ddr_test/sp605_ddr_test.bit -spi 
+
+PROM D:\work\hdmi_mipi_7inch\target_60Hz\force_1080p\xc25\xc25_p1200p1080\sp605_ddr_test\ddr_test\JDIi_7inch_60Hz_xc25.prm map: Sat May 16 08:08:29 2020
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          1024K
+PROM start    0000:0000
+PROM end      000f:ffff
+PROM checksum 0440a9bd
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    000c:3ab5     May 16 08:02:19 2020 D:/work/hdmi_mipi_7inch/target_60Hz/force_1080p/xc25/xc25_p1200p1080/sp605_ddr_test/ddr_test/sp605_ddr_test.bit

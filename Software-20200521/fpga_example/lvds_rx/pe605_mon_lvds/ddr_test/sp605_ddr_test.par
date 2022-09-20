@@ -1,0 +1,352 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+TIMYEP-PC::  Sun May 17 09:22:26 2020
+
+par -w -intstyle ise -ol high -mt off sp605_ddr_test_map.ncd sp605_ddr_test.ncd
+sp605_ddr_test.pcf 
+
+
+Constraints file: sp605_ddr_test.pcf.
+Loading device for application Rf_Device from file '6slx16.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "sp605_ddr_test" is an NCD, version 3.2, device xc6slx16, package ftg256, speed -3
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.23 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 1,260 out of  18,224    6%
+    Number used as Flip Flops:               1,259
+    Number used as Latches:                      1
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      1,308 out of   9,112   14%
+    Number used as logic:                    1,099 out of   9,112   12%
+      Number using O6 output only:             628
+      Number using O5 output only:             163
+      Number using O5 and O6:                  308
+      Number used as ROM:                        0
+    Number used as Memory:                     106 out of   2,176    4%
+      Number used as Dual Port RAM:              0
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           106
+        Number using O6 output only:            76
+        Number using O5 output only:             0
+        Number using O5 and O6:                 30
+    Number used exclusively as route-thrus:    103
+      Number with same-slice register load:     86
+      Number with same-slice carry load:        17
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   599 out of   2,278   26%
+  Number of MUXCYs used:                       488 out of   4,556   10%
+  Number of LUT Flip Flop pairs used:        1,691
+    Number with an unused Flip Flop:           591 out of   1,691   34%
+    Number with an unused LUT:                 383 out of   1,691   22%
+    Number of fully used LUT-FF pairs:         717 out of   1,691   42%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  18,224    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       106 out of     186   56%
+    Number of LOCed IOBs:                       97 out of     106   91%
+    IOB Flip Flops:                              1
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         6 out of      32   18%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 2 out of      32    6%
+    Number used as BUFIO2s:                      2
+    Number used as BUFIO2_2CLKs:                 0
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             1 out of      32    3%
+    Number used as BUFIO2FBs:                    1
+    Number used as BUFIO2FB_2CLKs:               0
+  Number of BUFG/BUFGMUXs:                       7 out of      16   43%
+    Number used as BUFGs:                        6
+    Number used as BUFGMUX:                      1
+  Number of DCM/DCM_CLKGENs:                     1 out of       4   25%
+    Number used as DCMs:                         0
+    Number used as DCM_CLKGENs:                  1
+  Number of ILOGIC2/ISERDES2s:                  18 out of     248    7%
+    Number used as ILOGIC2s:                     0
+    Number used as ISERDES2s:                   18
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:        42 out of     248   16%
+    Number used as IODELAY2s:                   18
+    Number used as IODRP2s:                      2
+    Number used as IODRP2_MCBs:                 22
+  Number of OLOGIC2/OSERDES2s:                  47 out of     248   18%
+    Number used as OLOGIC2s:                     1
+    Number used as OSERDES2s:                   46
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             1 out of       8   12%
+  Number of BUFPLL_MCBs:                         1 out of       4   25%
+  Number of DSP48A1s:                            0 out of      32    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                1 out of       2   50%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            2 out of       2  100%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+WARNING:Timing:3159 - The DCM, disp_clk_crm_i/disp_clk_wizard_i/dcm_clkgen_inst, has the attribute DFS_OSCILLATOR_MODE not set to
+   PHASE_FREQ_LOCK. No phase relationship exists between the input clock and CLKFX or CLKFX180 outputs of this DCM. Data paths between these
+   clock domains must be constrained using FROM/TO constraints.
+Starting initial Timing Analysis.  REAL time: 13 secs 
+Finished initial Timing Analysis.  REAL time: 13 secs 
+
+WARNING:Par:288 - The signal SPI_CS1_IBUF has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 9707 unrouted;      REAL time: 13 secs 
+
+Phase  2  : 7280 unrouted;      REAL time: 13 secs 
+
+Phase  3  : 2156 unrouted;      REAL time: 16 secs 
+
+Phase  4  : 2155 unrouted; (Setup:35050, Hold:0, Component Switching Limit:0)     REAL time: 16 secs 
+
+Updating file: sp605_ddr_test.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:35050, Hold:0, Component Switching Limit:0)     REAL time: 19 secs 
+
+Phase  6  : 0 unrouted; (Setup:35050, Hold:0, Component Switching Limit:0)     REAL time: 19 secs 
+
+Phase  7  : 0 unrouted; (Setup:35050, Hold:0, Component Switching Limit:0)     REAL time: 21 secs 
+
+Phase  8  : 0 unrouted; (Setup:35050, Hold:0, Component Switching Limit:0)     REAL time: 21 secs 
+
+Phase  9  : 0 unrouted; (Setup:35050, Hold:0, Component Switching Limit:0)     REAL time: 21 secs 
+
+Phase 10  : 0 unrouted; (Setup:35050, Hold:0, Component Switching Limit:0)     REAL time: 22 secs 
+Total REAL time to Router completion: 22 secs 
+Total CPU time to Router completion: 15 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|u_mig_39_2/c3_mcb_dr |              |      |      |            |             |
+|               p_clk |  BUFGMUX_X2Y3| No   |  147 |  0.098     |  0.944      |
++---------------------+--------------+------+------+------------+-------------+
+|             c3_clk0 | BUFGMUX_X3Y13| No   |   97 |  0.054     |  0.906      |
++---------------------+--------------+------+------+------------+-------------+
+|           deser_clk | BUFGMUX_X2Y10| No   |  187 |  0.180     |  1.029      |
++---------------------+--------------+------+------+------------+-------------+
+|             ipu_clk |  BUFGMUX_X2Y2| No   |   11 |  0.035     |  0.886      |
++---------------------+--------------+------+------+------------+-------------+
+|         CONTROL0<0> | BUFGMUX_X3Y14| No   |   55 |  0.058     |  0.905      |
++---------------------+--------------+------+------+------------+-------------+
+|            disp_clk | BUFGMUX_X2Y12| No   |   23 |  0.484     |  1.337      |
++---------------------+--------------+------+------+------------+-------------+
+|        disp_clk_int |  BUFGMUX_X2Y1| No   |    5 |  0.002     |  0.874      |
++---------------------+--------------+------+------+------------+-------------+
+|top_nto1_pll_diff_rx |              |      |      |            |             |
+| _i/rx_bufpll_clk_xn |         Local|      |   35 |  0.048     |  0.988      |
++---------------------+--------------+------+------+------------+-------------+
+|u_mig_39_2/c3_sysclk |              |      |      |            |             |
+|                 _2x |         Local|      |   35 |  0.571     |  0.969      |
++---------------------+--------------+------+------+------------+-------------+
+|u_mig_39_2/c3_sysclk |              |      |      |            |             |
+|             _2x_180 |         Local|      |   37 |  0.590     |  0.988      |
++---------------------+--------------+------+------+------------+-------------+
+|u_mig_39_2/memc3_wra |              |      |      |            |             |
+|pper_inst/mcb_ui_top |              |      |      |            |             |
+|_inst/mcb_raw_wrappe |              |      |      |            |             |
+|  r_inst/ioi_drp_clk |         Local|      |   22 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+|u_mig_39_2/memc3_wra |              |      |      |            |             |
+|pper_inst/mcb_ui_top |              |      |      |            |             |
+|_inst/mcb_raw_wrappe |              |      |      |            |             |
+|r_inst/idelay_dqs_io |              |      |      |            |             |
+|                 i_s |         Local|      |    1 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+|u_mig_39_2/memc3_wra |              |      |      |            |             |
+|pper_inst/mcb_ui_top |              |      |      |            |             |
+|_inst/mcb_raw_wrappe |              |      |      |            |             |
+|r_inst/idelay_dqs_io |              |      |      |            |             |
+|                 i_m |         Local|      |    1 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+|u_mig_39_2/memc3_wra |              |      |      |            |             |
+|pper_inst/mcb_ui_top |              |      |      |            |             |
+|_inst/mcb_raw_wrappe |              |      |      |            |             |
+|r_inst/idelay_udqs_i |              |      |      |            |             |
+|                oi_s |         Local|      |    1 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+|u_mig_39_2/memc3_wra |              |      |      |            |             |
+|pper_inst/mcb_ui_top |              |      |      |            |             |
+|_inst/mcb_raw_wrappe |              |      |      |            |             |
+|r_inst/idelay_udqs_i |              |      |      |            |             |
+|                oi_m |         Local|      |    1 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+|chipscope_icon_i0/U0 |              |      |      |            |             |
+|        /iUPDATE_OUT |         Local|      |    1 |  0.000     |  0.877      |
++---------------------+--------------+------+------+------------+-------------+
+|        CONTROL0<13> |         Local|      |    5 |  0.000     |  0.890      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 35050 (Setup: 35050, Hold: 0, Component Switching Limit: 0)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to ensure the best options
+   are set in the tools for timing closure.
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Number of Timing Constraints that were not applied: 3
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_u_mig_39_2_memc3_infrastructure_inst_i | SETUP       |    -1.008ns|    12.444ns|      25|       18886
+  pu_clk_in = PERIOD TIMEGRP         "u_mig | HOLD        |     0.379ns|            |       0|           0
+  _39_2_memc3_infrastructure_inst_ipu_clk_i |             |            |            |        |            
+  n" TS_SYS_CLK3 / 5.4         HIGH 50%     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+* TS_u_mig_39_2_memc3_infrastructure_inst_d | SETUP       |    -0.809ns|    61.835ns|      25|       14693
+  isp_clk_in = PERIOD TIMEGRP         "u_mi | HOLD        |     0.393ns|            |       0|           0
+  g_39_2_memc3_infrastructure_inst_disp_clk |             |            |            |        |            
+  _in" TS_SYS_CLK3 HIGH         50%         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_u_mig_39_2_memc3_infrastructure_inst_c | SETUP       |     0.022ns|     5.842ns|       0|           0
+  lk0_bufg_in = PERIOD TIMEGRP         "u_m | HOLD        |     0.284ns|            |       0|           0
+  ig_39_2_memc3_infrastructure_inst_clk0_bu |             |            |            |        |            
+  fg_in" TS_SYS_CLK3 / 6.75         HIGH 50 |             |            |            |        |            
+  %                                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_disp_clk_crm_i_disp_clk_wizard_i_clkfx | SETUP       |     0.153ns|     4.553ns|      14|        1471
+   = PERIOD TIMEGRP         "disp_clk_crm_i | HOLD        |     0.439ns|            |       0|           0
+  _disp_clk_wizard_i_clkfx"         TS_u_mi |             |            |            |        |            
+  g_39_2_memc3_infrastructure_inst_disp_clk |             |            |            |        |            
+  _in / 6.45833333 HIGH         50%         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_u_mig_39_2_memc3_infrastructure_inst_c | MINPERIOD   |     0.232ns|     1.249ns|       0|           0
+  lk_2x_180 = PERIOD TIMEGRP         "u_mig |             |            |            |        |            
+  _39_2_memc3_infrastructure_inst_clk_2x_18 |             |            |            |        |            
+  0" TS_SYS_CLK3 / 27         PHASE 0.74074 |             |            |            |        |            
+  0741 ns HIGH 50%                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_u_mig_39_2_memc3_infrastructure_inst_c | MINPERIOD   |     0.232ns|     1.249ns|       0|           0
+  lk_2x_0 = PERIOD TIMEGRP         "u_mig_3 |             |            |            |        |            
+  9_2_memc3_infrastructure_inst_clk_2x_0" T |             |            |            |        |            
+  S_SYS_CLK3 / 27 HIGH         50%          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_SYS_CLK3 = PERIOD TIMEGRP "SYS_CLK3" 4 | MINLOWPULSE |    30.000ns|    10.000ns|       0|           0
+  0 ns HIGH 50%                             |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_u_mig_39_2_memc3_infrastructure_inst_m | SETUP       |     3.488ns|     8.363ns|       0|           0
+  cb_drp_clk_bufg_in = PERIOD TIMEGRP       | HOLD        |     0.370ns|            |       0|           0
+     "u_mig_39_2_memc3_infrastructure_inst_ |             |            |            |        |            
+  mcb_drp_clk_bufg_in" TS_SYS_CLK3          |             |            |            |        |            
+  / 3.375 HIGH 50%                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_SYS_CLK3
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_SYS_CLK3                    |     40.000ns|     10.000ns|     67.198ns|            0|           64|            0|        46798|
+| TS_u_mig_39_2_memc3_infrastruc|     11.852ns|      8.363ns|          N/A|            0|            0|        24179|            0|
+| ture_inst_mcb_drp_clk_bufg_in |             |             |             |             |             |             |             |
+| TS_u_mig_39_2_memc3_infrastruc|      1.481ns|      1.249ns|          N/A|            0|            0|            0|            0|
+| ture_inst_clk_2x_180          |             |             |             |             |             |             |             |
+| TS_u_mig_39_2_memc3_infrastruc|     40.000ns|     61.835ns|     29.405ns|           25|           14|           49|         3118|
+| ture_inst_disp_clk_in         |             |             |             |             |             |             |             |
+|  TS_disp_clk_crm_i_disp_clk_wi|      6.194ns|      4.553ns|          N/A|           14|            0|         3118|            0|
+|  zard_i_clkfx                 |             |             |             |             |             |             |             |
+| TS_u_mig_39_2_memc3_infrastruc|      1.481ns|      1.249ns|          N/A|            0|            0|            0|            0|
+| ture_inst_clk_2x_0            |             |             |             |             |             |             |             |
+| TS_u_mig_39_2_memc3_infrastruc|      7.407ns|     12.444ns|          N/A|           25|            0|          254|            0|
+| ture_inst_ipu_clk_in          |             |             |             |             |             |             |             |
+| TS_u_mig_39_2_memc3_infrastruc|      5.926ns|      5.842ns|          N/A|            0|            0|        19198|            0|
+| ture_inst_clk0_bufg_in        |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+3 constraints not met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 1 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 22 secs 
+Total CPU time to PAR completion: 16 secs 
+
+Peak Memory Usage:  471 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - 64 errors found.
+
+Number of error messages: 0
+Number of warning messages: 5
+Number of info messages: 0
+
+Writing design to file sp605_ddr_test.ncd
+
+
+
+PAR done!

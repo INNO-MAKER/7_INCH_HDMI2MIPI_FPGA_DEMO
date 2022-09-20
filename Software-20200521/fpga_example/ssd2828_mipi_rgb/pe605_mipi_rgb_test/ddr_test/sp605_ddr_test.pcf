@@ -1,0 +1,1629 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun May 17 09:46:01 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "rgb_pdata<0>" LOCATE = SITE "C8" LEVEL 1;
+COMP "rgb_pdata<1>" LOCATE = SITE "D8" LEVEL 1;
+COMP "rgb_pdata<2>" LOCATE = SITE "D9" LEVEL 1;
+COMP "rgb_pdata<3>" LOCATE = SITE "C10" LEVEL 1;
+COMP "rgb_pdata<4>" LOCATE = SITE "C11" LEVEL 1;
+COMP "rgb_pdata<5>" LOCATE = SITE "D11" LEVEL 1;
+COMP "rgb_pdata<6>" LOCATE = SITE "D12" LEVEL 1;
+COMP "rgb_pdata<7>" LOCATE = SITE "C13" LEVEL 1;
+COMP "rgb_pdata<8>" LOCATE = SITE "A10" LEVEL 1;
+COMP "rgb_pdata<9>" LOCATE = SITE "B10" LEVEL 1;
+COMP "rgb_pdata<10>" LOCATE = SITE "A11" LEVEL 1;
+COMP "rgb_pdata<11>" LOCATE = SITE "A12" LEVEL 1;
+COMP "rgb_pdata<12>" LOCATE = SITE "B12" LEVEL 1;
+COMP "rgb_pdata<20>" LOCATE = SITE "A7" LEVEL 1;
+COMP "rgb_pdata<13>" LOCATE = SITE "A13" LEVEL 1;
+COMP "rgb_pdata<21>" LOCATE = SITE "A8" LEVEL 1;
+COMP "rgb_pdata<14>" LOCATE = SITE "A14" LEVEL 1;
+COMP "rgb_pdata<22>" LOCATE = SITE "B8" LEVEL 1;
+COMP "rgb_pdata<15>" LOCATE = SITE "B14" LEVEL 1;
+COMP "rgb_pdata<23>" LOCATE = SITE "A9" LEVEL 1;
+COMP "rgb_pdata<16>" LOCATE = SITE "A5" LEVEL 1;
+COMP "rgb_pdata<17>" LOCATE = SITE "B5" LEVEL 1;
+COMP "rgb_pdata<18>" LOCATE = SITE "A6" LEVEL 1;
+COMP "rgb_pdata<19>" LOCATE = SITE "B6" LEVEL 1;
+COMP "SPI_CS0" LOCATE = SITE "C5" LEVEL 1;
+COMP "SPI_CS1" LOCATE = SITE "D5" LEVEL 1;
+COMP "SPI_CLK" LOCATE = SITE "C9" LEVEL 1;
+COMP "c3_sys_clk" LOCATE = SITE "E10" LEVEL 1;
+COMP "SPI_MISO" LOCATE = SITE "C6" LEVEL 1;
+COMP "SPI_MOSI" LOCATE = SITE "D6" LEVEL 1;
+COMP "rgb_hsync" LOCATE = SITE "C7" LEVEL 1;
+COMP "mcb3_dram_a<0>" LOCATE = SITE "K5" LEVEL 1;
+COMP "mcb3_dram_a<1>" LOCATE = SITE "K6" LEVEL 1;
+COMP "mcb3_dram_a<2>" LOCATE = SITE "D1" LEVEL 1;
+COMP "mcb3_dram_a<3>" LOCATE = SITE "L4" LEVEL 1;
+COMP "mcb3_dram_a<4>" LOCATE = SITE "G5" LEVEL 1;
+COMP "mcb3_dram_a<5>" LOCATE = SITE "H4" LEVEL 1;
+COMP "mcb3_dram_a<6>" LOCATE = SITE "H3" LEVEL 1;
+COMP "mcb3_dram_a<7>" LOCATE = SITE "D3" LEVEL 1;
+COMP "mcb3_dram_a<8>" LOCATE = SITE "B2" LEVEL 1;
+COMP "mcb3_dram_a<9>" LOCATE = SITE "A2" LEVEL 1;
+COMP "mcb3_dram_ck_n" LOCATE = SITE "E1" LEVEL 1;
+COMP "mcb3_dram_we_n" LOCATE = SITE "C1" LEVEL 1;
+COMP "mcb3_dram_udqs" LOCATE = SITE "N3" LEVEL 1;
+COMP "c3_sys_rst_i" LOCATE = SITE "F12" LEVEL 1;
+COMP "mcb3_dram_ck" LOCATE = SITE "E2" LEVEL 1;
+COMP "mcb3_dram_dm" LOCATE = SITE "J4" LEVEL 1;
+COMP "mcb3_dram_a<10>" LOCATE = SITE "G6" LEVEL 1;
+COMP "mcb3_dram_a<11>" LOCATE = SITE "E3" LEVEL 1;
+COMP "mcb3_dram_a<12>" LOCATE = SITE "F3" LEVEL 1;
+COMP "mcb3_dram_ba<0>" LOCATE = SITE "C3" LEVEL 1;
+COMP "mcb3_dram_ba<1>" LOCATE = SITE "C2" LEVEL 1;
+COMP "mcb3_dram_ba<2>" LOCATE = SITE "B1" LEVEL 1;
+COMP "sf_ce" LOCATE = SITE "T3" LEVEL 1;
+COMP "mcb3_dram_dq<0>" LOCATE = SITE "K2" LEVEL 1;
+COMP "mcb3_dram_dq<1>" LOCATE = SITE "K1" LEVEL 1;
+COMP "mcb3_dram_dq<2>" LOCATE = SITE "J3" LEVEL 1;
+COMP "mcb3_dram_dq<3>" LOCATE = SITE "J1" LEVEL 1;
+COMP "mcb3_dram_dq<4>" LOCATE = SITE "F2" LEVEL 1;
+COMP "mcb3_dram_dq<5>" LOCATE = SITE "F1" LEVEL 1;
+COMP "mcb3_dram_dq<6>" LOCATE = SITE "G3" LEVEL 1;
+COMP "mcb3_dram_dq<7>" LOCATE = SITE "G1" LEVEL 1;
+COMP "mcb3_dram_dq<8>" LOCATE = SITE "L3" LEVEL 1;
+COMP "mcb3_dram_dq<9>" LOCATE = SITE "L1" LEVEL 1;
+COMP "mcu_irq" LOCATE = SITE "R3" LEVEL 1;
+COMP "mcb3_dram_cas_n" LOCATE = SITE "H5" LEVEL 1;
+COMP "sf_miso" LOCATE = SITE "P10" LEVEL 1;
+COMP "mcb3_dram_dqs_n" LOCATE = SITE "H1" LEVEL 1;
+COMP "sf_sclk" LOCATE = SITE "R11" LEVEL 1;
+COMP "sf_mosi" LOCATE = SITE "T10" LEVEL 1;
+COMP "mcb3_dram_ras_n" LOCATE = SITE "J6" LEVEL 1;
+COMP "rgb_vsync" LOCATE = SITE "F7" LEVEL 1;
+COMP "mcb3_zio" LOCATE = SITE "M5" LEVEL 1;
+COMP "mcb3_rzq" LOCATE = SITE "M4" LEVEL 1;
+COMP "mcb3_dram_cke" LOCATE = SITE "F4" LEVEL 1;
+COMP "mcb3_dram_dqs" LOCATE = SITE "H2" LEVEL 1;
+COMP "mcb3_dram_odt" LOCATE = SITE "L5" LEVEL 1;
+COMP "mcb3_dram_udm" LOCATE = SITE "K3" LEVEL 1;
+COMP "mcb3_dram_reset_n" LOCATE = SITE "E4" LEVEL 1;
+COMP "mcb3_dram_dq<10>" LOCATE = SITE "M2" LEVEL 1;
+COMP "mcb3_dram_dq<11>" LOCATE = SITE "M1" LEVEL 1;
+COMP "mcb3_dram_dq<12>" LOCATE = SITE "P2" LEVEL 1;
+COMP "mcb3_dram_dq<13>" LOCATE = SITE "P1" LEVEL 1;
+COMP "mcb3_dram_dq<14>" LOCATE = SITE "R2" LEVEL 1;
+COMP "mcb3_dram_dq<15>" LOCATE = SITE "R1" LEVEL 1;
+COMP "rxa_clk_p" LOCATE = SITE "J14" LEVEL 1;
+COMP "rgb_pclk" LOCATE = SITE "E7" LEVEL 1;
+COMP "mcb3_dram_udqs_n" LOCATE = SITE "N1" LEVEL 1;
+COMP "rxa_d0_p" LOCATE = SITE "P15" LEVEL 1;
+COMP "rxa_d1_p" LOCATE = SITE "M15" LEVEL 1;
+COMP "rxa_d2_p" LOCATE = SITE "K15" LEVEL 1;
+COMP "rxa_d3_p" LOCATE = SITE "H15" LEVEL 1;
+COMP "rxb_d0_p" LOCATE = SITE "F15" LEVEL 1;
+COMP "rxb_d1_p" LOCATE = SITE "E15" LEVEL 1;
+COMP "rxb_d2_p" LOCATE = SITE "C15" LEVEL 1;
+COMP "rxb_d3_p" LOCATE = SITE "B15" LEVEL 1;
+COMP "rgb_de" LOCATE = SITE "E6" LEVEL 1;
+PIN oddr2_rgb_pclk_pins<1> = BEL "oddr2_rgb_pclk" PINNAME CK0;
+PIN oddr2_rgb_pclk_pins<2> = BEL "oddr2_rgb_pclk" PINNAME CK1;
+TIMEGRP disp_clk_crm_i_disp_clk_wizard_i_clkfx = BEL "rgb_de" BEL
+        "rgb_pdata_0" BEL "rgb_pdata_8" BEL "rgb_pdata_16" BEL
+        "disp_clk_crm_i/clocks_ready" BEL
+        "disp_clk_crm_i/bus_sync/reset_out_tmp" BEL
+        "disp_clk_crm_i/bus_sync/reset_int" BEL "cnt_frm_i/vsync_ff_1" BEL
+        "cnt_frm_i/vsync_ff_0" BEL "disp_clk_crm_i/clocks_ready_count_0" BEL
+        "disp_clk_crm_i/clocks_ready_count_1" BEL
+        "disp_clk_crm_i/clocks_ready_count_2" BEL
+        "disp_clk_crm_i/clocks_ready_count_3" BEL
+        "disp_clk_crm_i/clocks_ready_count_4" BEL
+        "disp_clk_crm_i/clocks_ready_count_5" BEL
+        "disp_clk_crm_i/clocks_ready_count_6" BEL
+        "disp_clk_crm_i/clocks_ready_count_7" BEL
+        "disp_clk_crm_i/clocks_ready_count_8" BEL
+        "disp_clk_crm_i/clocks_ready_count_9" BEL
+        "disp_clk_crm_i/clocks_ready_count_10" BEL
+        "disp_clk_crm_i/clocks_ready_count_11" BEL
+        "disp_clk_crm_i/clocks_ready_count_12" BEL
+        "disp_clk_crm_i/clocks_ready_count_13" BEL
+        "disp_clk_crm_i/clocks_ready_count_14" BEL
+        "disp_clk_crm_i/clocks_ready_count_15" BEL "cnt_frm_i/frm_cnt_0" BEL
+        "cnt_frm_i/frm_cnt_1" BEL "cnt_frm_i/frm_cnt_2" BEL
+        "cnt_frm_i/frm_cnt_3" BEL "cnt_frm_i/frm_cnt_4" BEL
+        "cnt_frm_i/frm_cnt_5" BEL "cnt_frm_i/frm_cnt_6" BEL
+        "cnt_frm_i/frm_cnt_7" BEL "cnt_frm_i/frm_cnt_8" BEL
+        "disp_clk_crm_i/disp_clk_wizard_i/clkout1_buf" BEL
+        "video_ctrl_o_i/vcnt_11" BEL "video_ctrl_o_i/vcnt_10" BEL
+        "video_ctrl_o_i/vcnt_9" BEL "video_ctrl_o_i/vcnt_8" BEL
+        "video_ctrl_o_i/vcnt_7" BEL "video_ctrl_o_i/vcnt_6" BEL
+        "video_ctrl_o_i/vcnt_5" BEL "video_ctrl_o_i/vcnt_4" BEL
+        "video_ctrl_o_i/vcnt_3" BEL "video_ctrl_o_i/vcnt_2" BEL
+        "video_ctrl_o_i/vcnt_1" BEL "video_ctrl_o_i/vcnt_0" BEL
+        "video_ctrl_o_i/hcnt_12" BEL "video_ctrl_o_i/hcnt_10" BEL
+        "video_ctrl_o_i/hcnt_9" BEL "video_ctrl_o_i/hcnt_8" BEL
+        "video_ctrl_o_i/hcnt_7" BEL "video_ctrl_o_i/hcnt_6" BEL
+        "video_ctrl_o_i/hcnt_5" BEL "video_ctrl_o_i/hcnt_4" BEL
+        "video_ctrl_o_i/hcnt_3" BEL "video_ctrl_o_i/hcnt_2" BEL
+        "video_ctrl_o_i/hcnt_1" BEL "video_ctrl_o_i/hcnt_0" BEL
+        "video_ctrl_o_i/de" BEL "video_ctrl_o_i/is_next_pixel_active" BEL
+        "video_ctrl_o_i/vsync_n" BEL "video_ctrl_o_i/hsync_n" BEL "rgb_hsync"
+        BEL "rgb_vsync" PIN "oddr2_rgb_pclk_pins<1>" PIN
+        "oddr2_rgb_pclk_pins<2>" PIN "oddr2_rgb_pclk_pins<1>" PIN
+        "oddr2_rgb_pclk_pins<2>";
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<109>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0"
+        PINNAME P0CMDCLK;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<130>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0"
+        PINNAME P0RDCLK;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<136>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0"
+        PINNAME P0WRCLK;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<212>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0"
+        PINNAME P1RDCLK;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<219>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0"
+        PINNAME P1WRCLK;
+PIN mem_rw_test_i/wr_fifo_i/ram/Mram_ram2_pins<18> = BEL
+        "mem_rw_test_i/wr_fifo_i/ram/Mram_ram2" PINNAME CLKA;
+PIN mem_rw_test_i/wr_fifo_i/ram/Mram_ram2_pins<19> = BEL
+        "mem_rw_test_i/wr_fifo_i/ram/Mram_ram2" PINNAME CLKB;
+PIN mem_rw_test_i/wr_fifo_i/ram/Mram_ram1_pins<18> = BEL
+        "mem_rw_test_i/wr_fifo_i/ram/Mram_ram1" PINNAME CLKA;
+PIN mem_rw_test_i/wr_fifo_i/ram/Mram_ram1_pins<19> = BEL
+        "mem_rw_test_i/wr_fifo_i/ram/Mram_ram1" PINNAME CLKB;
+TIMEGRP u_mig_39_2_memc3_infrastructure_inst_clk0_bufg_in = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.axi_mcb_synch/synch_d2_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.axi_mcb_synch/synch_d1_0"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<109>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<130>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<136>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<212>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<219>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<109>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<130>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<136>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<212>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<219>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<109>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<130>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<136>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<212>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<219>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<109>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<130>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<136>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<212>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<219>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<109>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<130>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<136>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<212>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<219>"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/ar_axi_mcb_cmd_fsm_0/state_FSM_FFd2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/ar_axi_mcb_cmd_fsm_0/state_FSM_FFd3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/ar_axi_mcb_cmd_fsm_0/state_FSM_FFd1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/reset"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_w_channel_0/cnt_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_w_channel_0/cnt_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_w_channel_0/cnt_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_w_channel_0/cnt_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_w_channel_0/PL_WR_FULL.wready_r"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_w_channel_0/PL_WR_FULL.wr_count_d1_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_w_channel_0/PL_WR_FULL.wr_count_d1_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_w_channel_0/PL_WR_FULL.wr_count_d1_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_w_channel_0/PL_WR_FULL.wr_count_d1_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_w_channel_0/PL_WR_FULL.wr_count_d1_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_w_channel_0/PL_WR_FULL.wr_count_d1_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/cnt_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/cnt_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/cnt_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/cnt_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/transaction_fifo_0/Mshreg_dout_9_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/transaction_fifo_0/Mshreg_dout_7_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/transaction_fifo_0/Mshreg_dout_6_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/transaction_fifo_0/Mshreg_dout_8_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/transaction_fifo_0/Mshreg_dout_0_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/transaction_fifo_0/cnt_read_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/transaction_fifo_0/cnt_read_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_56"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_52"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_51"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_50"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_49"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_48"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_47"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_46"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_45"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_44"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_43"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_42"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_41"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_40"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/storage_data1_39"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/areset_d_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/areset_d_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/w_trans_cnt_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/w_trans_cnt_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/w_trans_cnt_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/aw_axi_mcb_cmd_fsm_0/state_FSM_FFd1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/aw_axi_mcb_cmd_fsm_0/state_FSM_FFd2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/aw_axi_mcb_cmd_fsm_0/state_FSM_FFd3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axaddr_cnt_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axaddr_cnt_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axaddr_cnt_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axaddr_cnt_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axaddr_cnt_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axlen_cnt_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axlen_cnt_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axlen_cnt_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axlen_cnt_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axlen_cnt_not_zero"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axaddr_cnt_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axaddr_cnt_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axaddr_cnt_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axaddr_cnt_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axaddr_cnt_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axlen_cnt_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axlen_cnt_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axlen_cnt_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axlen_cnt_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/axlen_cnt_not_zero"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_b_channel_0/bid_fifo_0/cnt_read_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_b_channel_0/bid_fifo_0/cnt_read_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/USE_CMD_ARBITER.axi_mcb_cmd_arbiter_0/READ_PRIORITY_REG.rnw_i"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/USE_CMD_ARBITER.axi_mcb_cmd_arbiter_0/READ_PRIORITY_REG.rd_cmd_en_last"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/USE_CMD_ARBITER.axi_mcb_cmd_arbiter_0/READ_PRIORITY_REG.wr_cmd_en_last"
+        BEL "u_mig_39_2/memc3_infrastructure_inst/U_BUFG_CLK0" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/syn_clk0_powerup_pll_locked" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_23" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_22" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_21" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_20" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_19" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_18" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_17" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_16" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_15" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_14" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_13" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_12" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_11" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_10" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_9" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_8" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_7" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_6" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_5" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_4" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_3" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_2" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_1" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_0" BEL
+        "mem_rw_test_i/wr_dat_63" BEL "mem_rw_test_i/wr_dat_20" BEL
+        "mem_rw_test_i/wr_dat_19" BEL "mem_rw_test_i/wr_dat_18" BEL
+        "mem_rw_test_i/wr_dat_17" BEL "mem_rw_test_i/wr_dat_16" BEL
+        "mem_rw_test_i/wr_dat_15" BEL "mem_rw_test_i/wr_dat_14" BEL
+        "mem_rw_test_i/wr_dat_13" BEL "mem_rw_test_i/wr_dat_12" BEL
+        "mem_rw_test_i/wr_dat_11" BEL "mem_rw_test_i/wr_dat_10" BEL
+        "mem_rw_test_i/wr_dat_9" BEL "mem_rw_test_i/wr_dat_8" BEL
+        "mem_rw_test_i/wr_dat_7" BEL "mem_rw_test_i/wr_dat_6" BEL
+        "mem_rw_test_i/wr_dat_5" BEL "mem_rw_test_i/wr_dat_4" BEL
+        "mem_rw_test_i/wr_dat_3" BEL "mem_rw_test_i/wr_dat_2" BEL
+        "mem_rw_test_i/wr_dat_1" BEL "mem_rw_test_i/wr_dat_0" BEL
+        "mem_rw_test_i/wr_cn_3" BEL "mem_rw_test_i/wr_cn_2" BEL
+        "mem_rw_test_i/wr_cn_1" BEL "mem_rw_test_i/wr_cn_0" BEL
+        "mem_rw_test_i/wr_vld_cn_1" BEL "mem_rw_test_i/wr_vld_cn_0" BEL
+        "mem_rw_test_i/wr_issue_cn_3" BEL "mem_rw_test_i/wr_issue_cn_2" BEL
+        "mem_rw_test_i/wr_issue_cn_1" BEL "mem_rw_test_i/wr_issue_cn_0" BEL
+        "mem_rw_test_i/rd_addr_31" BEL "mem_rw_test_i/rd_addr_22" BEL
+        "mem_rw_test_i/rd_addr_21" BEL "mem_rw_test_i/rd_addr_20" BEL
+        "mem_rw_test_i/rd_addr_19" BEL "mem_rw_test_i/rd_addr_18" BEL
+        "mem_rw_test_i/rd_addr_17" BEL "mem_rw_test_i/rd_addr_16" BEL
+        "mem_rw_test_i/rd_addr_15" BEL "mem_rw_test_i/rd_addr_14" BEL
+        "mem_rw_test_i/rd_addr_13" BEL "mem_rw_test_i/rd_addr_12" BEL
+        "mem_rw_test_i/rd_addr_11" BEL "mem_rw_test_i/rd_addr_10" BEL
+        "mem_rw_test_i/rd_addr_9" BEL "mem_rw_test_i/wr_addr_31" BEL
+        "mem_rw_test_i/wr_addr_22" BEL "mem_rw_test_i/wr_addr_21" BEL
+        "mem_rw_test_i/wr_addr_20" BEL "mem_rw_test_i/wr_addr_19" BEL
+        "mem_rw_test_i/wr_addr_18" BEL "mem_rw_test_i/wr_addr_17" BEL
+        "mem_rw_test_i/wr_addr_16" BEL "mem_rw_test_i/wr_addr_15" BEL
+        "mem_rw_test_i/wr_addr_14" BEL "mem_rw_test_i/wr_addr_13" BEL
+        "mem_rw_test_i/wr_addr_12" BEL "mem_rw_test_i/wr_addr_11" BEL
+        "mem_rw_test_i/wr_addr_10" BEL "mem_rw_test_i/wr_addr_9" BEL
+        "mem_rw_test_i/wr_addr_8" BEL "mem_rw_test_i/wr_addr_7" BEL
+        "mem_rw_test_i/Init_done_dl_2" BEL "mem_rw_test_i/Init_done_dl_1" BEL
+        "mem_rw_test_i/Init_done_dl_0" BEL "mem_rw_test_i/wr_fifo_i/wr_addr_7"
+        BEL "mem_rw_test_i/wr_fifo_i/wr_addr_6" BEL
+        "mem_rw_test_i/wr_fifo_i/wr_addr_5" BEL
+        "mem_rw_test_i/wr_fifo_i/wr_addr_4" BEL
+        "mem_rw_test_i/wr_fifo_i/wr_addr_3" BEL
+        "mem_rw_test_i/wr_fifo_i/wr_addr_2" BEL
+        "mem_rw_test_i/wr_fifo_i/wr_addr_1" BEL
+        "mem_rw_test_i/wr_fifo_i/wr_addr_0" BEL
+        "mem_rw_test_i/wr_fifo_i/rd_addr_7" BEL
+        "mem_rw_test_i/wr_fifo_i/rd_addr_6" BEL
+        "mem_rw_test_i/wr_fifo_i/rd_addr_5" BEL
+        "mem_rw_test_i/wr_fifo_i/rd_addr_4" BEL
+        "mem_rw_test_i/wr_fifo_i/rd_addr_3" BEL
+        "mem_rw_test_i/wr_fifo_i/rd_addr_2" BEL
+        "mem_rw_test_i/wr_fifo_i/rd_addr_1" BEL
+        "mem_rw_test_i/wr_fifo_i/rd_addr_0" BEL
+        "mem_rw_test_i/wr_fifo_i/read_state_FSM_FFd2" BEL
+        "mem_rw_test_i/wr_fifo_i/read_state_FSM_FFd1" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_17" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_16" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_15" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_14" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_13" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_12" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_11" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_10" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_9" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_8" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_7" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_6" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_5" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_4" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_3" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_2" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_1" BEL
+        "mem_rw_test_i/wr_fifo_i/occupied_0" BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/transaction_fifo_0/empty_r"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/w_trans_cnt_full_r"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_b_channel_0/bid_fifo_0/empty_r"
+        BEL "mem_rw_test_i/wr_st" BEL "mem_rw_test_i/wr_fifo_i/full_reg" BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/cnt_is_zero"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/m_valid_i"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/axi_register_slice_d3/ar_pipe/s_ready_i"
+        BEL "mem_rw_test_i/wr_fifo_i/empty_reg" BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_b_channel_0/bvalid_i"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_w_channel_0/subburst_last"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/sel_first"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_aw_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/sel_first"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_ar_channel_0/axi_mcb_cmd_translator_0/axi_mcb_incr_cmd_0/sel_first"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/READ_BUNDLE.axi_mcb_r_channel_0/transaction_fifo_0/full_r"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/P0_UI_AXI.p0_axi_mcb/WRITE_BUNDLE.axi_mcb_b_channel_0/bid_fifo_0/full_r"
+        BEL "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24_1" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24_2" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24_3" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24_4" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24_5" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24_6" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24_7" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24_8" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24_9" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24_10" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24_11" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24_12" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_24_13" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/rst0_sync_r_23_1" PIN
+        "mem_rw_test_i/wr_fifo_i/ram/Mram_ram2_pins<18>" PIN
+        "mem_rw_test_i/wr_fifo_i/ram/Mram_ram2_pins<19>" PIN
+        "mem_rw_test_i/wr_fifo_i/ram/Mram_ram1_pins<18>" PIN
+        "mem_rw_test_i/wr_fifo_i/ram/Mram_ram1_pins<19>";
+TIMEGRP u_mig_39_2_memc3_infrastructure_inst_ipu_clk_in = BEL "ddr_ok_cnt_0"
+        BEL "ddr_ok_cnt_1" BEL "ddr_ok_cnt_2" BEL "ddr_ok_cnt_3" BEL
+        "ddr_ok_cnt_4" BEL "ddr_ok_cnt_5" BEL "ddr_ok_cnt_6" BEL
+        "ddr_ok_cnt_7" BEL "ddr_ok_cnt_8" BEL "ddr_ok_cnt_9" BEL
+        "ddr_ok_cnt_10" BEL "ddr_ok_cnt_11" BEL "ddr_ok_cnt_12" BEL
+        "ddr_ok_cnt_13" BEL "ddr_ok_cnt_14" BEL "ddr_ok_cnt_15" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/U_BUFG_ipu_clk" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_24" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_23" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_22" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_21" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_20" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_19" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_18" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_17" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_16" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_15" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_14" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_13" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_12" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_11" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_10" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_9" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_8" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_7" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_6" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_5" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_4" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_3" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_2" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_1" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_0" BEL "ctrl_sm"
+        BEL "u_mig_39_2/memc3_infrastructure_inst/ipu_rst_sync_r_24_1" BEL
+        "Mshreg_calib_done_r_2" BEL "calib_done_r_2";
+PIN disp_clk_crm_i/disp_clk_wizard_i/dcm_clkgen_inst_pins<1> = BEL
+        "disp_clk_crm_i/disp_clk_wizard_i/dcm_clkgen_inst" PINNAME CLKIN;
+TIMEGRP u_mig_39_2_memc3_infrastructure_inst_disp_clk_in = PIN
+        "disp_clk_crm_i/disp_clk_wizard_i/dcm_clkgen_inst_pins<1>" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/U_BUFG_disp_clk" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_24" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_23" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_22" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_21" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_20" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_19" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_18" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_17" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_16" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_15" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_14" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_13" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_12" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_11" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_10" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_9" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_8" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_7" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_6" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_5" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_4" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_3" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_2" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_1" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/disp_rst_sync_r_0";
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[15].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[15].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[14].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[14].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[13].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[13].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[12].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[12].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[11].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[11].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[10].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[10].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[9].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[9].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[8].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[8].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[7].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[7].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[6].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[6].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[5].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[5].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[4].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[4].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[3].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[3].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[2].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[2].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[1].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[1].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[0].oserdes2_dq_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[0].oserdes2_dq_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_ldm_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_ldm_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_udm_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_udm_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<583>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0"
+        PINNAME PLLCLK1;
+TIMEGRP u_mig_39_2_memc3_infrastructure_inst_clk_2x_180 = PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[15].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[14].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[13].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[12].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[11].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[10].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[9].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[8].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[7].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[6].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[5].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[4].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[3].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[2].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[1].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_dq[0].oserdes2_dq_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_ldm_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_udm_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<583>";
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/oserdes2_udqsn_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/oserdes2_udqsn_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/oserdes2_udqsp_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/oserdes2_udqsp_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/oserdes2_dqsn_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/oserdes2_dqsn_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/oserdes2_dqsp_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/oserdes2_dqsp_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_we_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_we_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ioi_rst.ioi_rst_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ioi_rst.ioi_rst_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_ras_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_ras_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ioi_odt.ioi_odt_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ioi_odt.ioi_odt_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_cke_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_cke_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_cas_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_cas_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ba_oserdes2[2].ioi_ba_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ba_oserdes2[2].ioi_ba_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ba_oserdes2[1].ioi_ba_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ba_oserdes2[1].ioi_ba_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ba_oserdes2[0].ioi_ba_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ba_oserdes2[0].ioi_ba_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[12].ioi_addr_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[12].ioi_addr_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[11].ioi_addr_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[11].ioi_addr_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[10].ioi_addr_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[10].ioi_addr_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[9].ioi_addr_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[9].ioi_addr_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[8].ioi_addr_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[8].ioi_addr_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[7].ioi_addr_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[7].ioi_addr_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[6].ioi_addr_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[6].ioi_addr_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[5].ioi_addr_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[5].ioi_addr_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[4].ioi_addr_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[4].ioi_addr_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[3].ioi_addr_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[3].ioi_addr_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[2].ioi_addr_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[2].ioi_addr_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[1].ioi_addr_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[1].ioi_addr_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[0].ioi_addr_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[0].ioi_addr_0"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<582>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0"
+        PINNAME PLLCLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_ck_0/N_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_ck_0/N"
+        PINNAME CLK0;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_ck_0_pins<0>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_ck_0"
+        PINNAME CLK0;
+TIMEGRP u_mig_39_2_memc3_infrastructure_inst_clk_2x_0 = PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/oserdes2_udqsn_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/oserdes2_udqsp_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/oserdes2_dqsn_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/oserdes2_dqsp_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_we_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ioi_rst.ioi_rst_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_ras_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ioi_odt.ioi_odt_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_cke_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_cas_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ba_oserdes2[2].ioi_ba_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ba_oserdes2[1].ioi_ba_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_ba_oserdes2[0].ioi_ba_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[12].ioi_addr_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[11].ioi_addr_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[10].ioi_addr_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[9].ioi_addr_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[8].ioi_addr_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[7].ioi_addr_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[6].ioi_addr_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[5].ioi_addr_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[4].ioi_addr_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[3].ioi_addr_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[2].ioi_addr_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[1].ioi_addr_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_addr_oserdes2[0].ioi_addr_0_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<582>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_ck_0/N_pins<0>"
+        PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/ioi_ck_0_pins<0>";
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<602>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0"
+        PINNAME UICLK;
+TIMEGRP u_mig_39_2_memc3_infrastructure_inst_mcb_drp_clk_bufg_in = PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<602>"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/gen_zio.IODRP2_ZIO"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/IODRP2_RZQ"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/RZQ_IN_R2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/ZIO_IN_R2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/ZIO_IN_R1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/RZQ_IN_R1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_15"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_14"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_13"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_12"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_11"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_10"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_9"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_8"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/WAIT_200us_COUNTER_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_inc_7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_inc_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_inc_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_inc_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_inc_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_inc_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_inc_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_inc_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_dec_7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_dec_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_dec_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_dec_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_dec_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_dec_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_dec_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_dec_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd8"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd10"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd11"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd9"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd13"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd14"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd12"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd16"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd17"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd15"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd18"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd19"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd20"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd21"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd23"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd24"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd22"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd26"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd27"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd25"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd29"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd30"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd28"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd31"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd32"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd33"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd34"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd36"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd37"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd35"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd39"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd40"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd38"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd42"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd43"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd41"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd44"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd45"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd46"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd47"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd49"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd50"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd48"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd52"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd53"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd51"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd55"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd56"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd54"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd57"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd58"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/RstCounter_9"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/RstCounter_8"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/RstCounter_7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/RstCounter_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/RstCounter_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/RstCounter_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/RstCounter_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/RstCounter_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/RstCounter_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/RstCounter_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/pre_sysrst_cnt_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/pre_sysrst_cnt_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/pre_sysrst_cnt_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/pre_sysrst_cnt_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/count_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/count_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/count_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/count_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/count_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/count_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/TARGET_DQS_DELAY_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/TARGET_DQS_DELAY_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/TARGET_DQS_DELAY_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/TARGET_DQS_DELAY_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/TARGET_DQS_DELAY_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/TARGET_DQS_DELAY_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/TARGET_DQS_DELAY_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Active_IODRP_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Active_IODRP_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCTRLR_MEMCELL_ADDR_7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCTRLR_MEMCELL_ADDR_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCTRLR_MEMCELL_ADDR_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCTRLR_MEMCELL_ADDR_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCTRLR_CMD_VALID"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCTRLR_WRITE_DATA_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCTRLR_WRITE_DATA_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCTRLR_WRITE_DATA_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCTRLR_WRITE_DATA_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCTRLR_WRITE_DATA_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCTRLR_WRITE_DATA_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCTRLR_WRITE_DATA_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_Prev_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_Prev_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_Prev_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_Prev_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_Prev_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_Prev_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_Prev_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_Prev_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_Prev_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_Prev_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_Prev_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_Prev_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_Prev_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_INITIAL_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_INITIAL_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_INITIAL_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_INITIAL_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_INITIAL_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_INITIAL_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DQS_DELAY_INITIAL_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_s_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_s_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_s_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_s_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_s_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_s_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_s_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Block_Reset"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_w_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_w_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_w_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_w_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_w_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_w_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/N_Term_w_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_s_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_s_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_s_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_s_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_s_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_s_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_Previous_7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_Previous_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_Previous_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_Previous_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_Previous_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_Previous_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_Previous_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Max_Value_Previous_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_w_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_w_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_w_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_w_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_w_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/P_Term_w_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/MCB_UIADDR_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/MCB_UIADDR_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/MCB_UIADDR_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/MCB_UILDQSDEC"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/MCB_UILDQSINC"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/counter_en"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/IODRPCTRLR_R_WB"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/MCB_USE_BKST"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/MCB_CMD_VALID"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/RST_reg"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/PLL_LOCK_R2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/SELFREFRESH_MCB_MODE_R2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/PLL_LOCK_R1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/SELFREFRESH_MCB_MODE_R1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/state_FSM_FFd2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/state_FSM_FFd3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/state_FSM_FFd1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/state_FSM_FFd5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/state_FSM_FFd6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/state_FSM_FFd7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/bit_cnt_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/bit_cnt_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/bit_cnt_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/state_FSM_FFd8"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/read_data_7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/read_data_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/read_data_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/read_data_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/read_data_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/read_data_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/read_data_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/read_data_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/shift_through_reg_7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/shift_through_reg_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/shift_through_reg_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/shift_through_reg_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/shift_through_reg_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/shift_through_reg_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/shift_through_reg_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/shift_through_reg_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/DRP_ADD"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/data_reg_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/data_reg_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/data_reg_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/data_reg_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/data_reg_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/data_reg_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/data_reg_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/memcell_addr_reg_7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/memcell_addr_reg_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/memcell_addr_reg_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/memcell_addr_reg_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/DRP_CS"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/AddressPhase"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/rd_not_write_reg"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/bit_cnt_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/bit_cnt_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/bit_cnt_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/state_FSM_FFd2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/state_FSM_FFd3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/state_FSM_FFd4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/shift_through_reg_7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/shift_through_reg_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/shift_through_reg_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/shift_through_reg_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/shift_through_reg_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/shift_through_reg_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/shift_through_reg_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/shift_through_reg_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/DRP_ADD"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/DRP_BKST"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/data_reg_6"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/data_reg_5"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/data_reg_4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/data_reg_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/data_reg_2"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/data_reg_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/data_reg_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/memcell_addr_reg_7"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/memcell_addr_reg_3"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/memcell_addr_reg_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/memcell_addr_reg_0"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/MCB_UIREAD"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/DRP_CS"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/AddressPhase"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/rd_not_write_reg"
+        BEL "u_mig_39_2/memc3_infrastructure_inst/U_BUFG_CLK1" BEL
+        "u_mig_39_2/memc3_infrastructure_inst/powerup_pll_locked" BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/MCB_UIDRPUPDATE"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/MCB_UICMDEN"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/MCB_UIDONECAL"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Pre_SYSRST"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/First_Dyn_Cal_Done"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/First_In_Term_Done"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/syn_uiclk_pll_lock"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/STATE_FSM_FFd1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Rst_condition1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DONE_SOFTANDHARD_CAL"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_controller/state_FSM_FFd4"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/state_FSM_FFd1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/normal_operation_window"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/SELFREFRESH_MODE"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Pre_SYSRST_1"
+        BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/Pre_SYSRST_2";
+PIN SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0_pins<0> = BEL
+        "SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0" PINNAME DIVCLK;
+PIN u_mig_39_2/memc3_infrastructure_inst/u_pll_adv_pins<2> = BEL
+        "u_mig_39_2/memc3_infrastructure_inst/u_pll_adv" PINNAME CLKIN1;
+TIMEGRP SYS_CLK3 = PIN "SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0_pins<0>" PIN
+        "u_mig_39_2/memc3_infrastructure_inst/u_pll_adv_pins<2>";
+TS_SYS_CLK3 = PERIOD TIMEGRP "SYS_CLK3" 40 ns HIGH 50%;
+TS_u_mig_39_2_memc3_infrastructure_inst_mcb_drp_clk_bufg_in = PERIOD TIMEGRP
+        "u_mig_39_2_memc3_infrastructure_inst_mcb_drp_clk_bufg_in" TS_SYS_CLK3
+        / 3.375 HIGH 50%;
+TS_u_mig_39_2_memc3_infrastructure_inst_clk_2x_180 = PERIOD TIMEGRP
+        "u_mig_39_2_memc3_infrastructure_inst_clk_2x_180" TS_SYS_CLK3 / 27
+        PHASE 0.740740741 ns HIGH 50%;
+TS_u_mig_39_2_memc3_infrastructure_inst_disp_clk_in = PERIOD TIMEGRP
+        "u_mig_39_2_memc3_infrastructure_inst_disp_clk_in" TS_SYS_CLK3 HIGH
+        50%;
+TS_u_mig_39_2_memc3_infrastructure_inst_clk_2x_0 = PERIOD TIMEGRP
+        "u_mig_39_2_memc3_infrastructure_inst_clk_2x_0" TS_SYS_CLK3 / 27 HIGH
+        50%;
+TS_u_mig_39_2_memc3_infrastructure_inst_ipu_clk_in = PERIOD TIMEGRP
+        "u_mig_39_2_memc3_infrastructure_inst_ipu_clk_in" TS_SYS_CLK3 / 5.4
+        HIGH 50%;
+TS_u_mig_39_2_memc3_infrastructure_inst_clk0_bufg_in = PERIOD TIMEGRP
+        "u_mig_39_2_memc3_infrastructure_inst_clk0_bufg_in" TS_SYS_CLK3 / 6.75
+        HIGH 50%;
+TS_disp_clk_crm_i_disp_clk_wizard_i_clkfx = PERIOD TIMEGRP
+        "disp_clk_crm_i_disp_clk_wizard_i_clkfx"
+        TS_u_mig_39_2_memc3_infrastructure_inst_disp_clk_in / 6.45833333 HIGH
+        50%;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<589>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0"
+        PINNAME SELFREFRESHMODE;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DONE_SOFTANDHARD_CAL_rstpot_pins<2>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DONE_SOFTANDHARD_CAL_rstpot"
+        PINNAME O6;
+PIN
+        u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DONE_SOFTANDHARD_CAL_pins<2>
+        = BEL
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DONE_SOFTANDHARD_CAL"
+        PINNAME Q;
+PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<589>"
+        TIG;
+PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DONE_SOFTANDHARD_CAL_rstpot_pins<2>"
+        TIG;
+PIN
+        "u_mig_39_2/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DONE_SOFTANDHARD_CAL_pins<2>"
+        TIG;
+SCHEMATIC END;
+

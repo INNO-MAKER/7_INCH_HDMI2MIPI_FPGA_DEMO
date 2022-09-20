@@ -1,0 +1,112 @@
+Dependencies for Project 'Blinky', Target 'STM32F030 Flash': (DO NOT MODIFY !)
+F (.\Retarget.c)(0x5320138E)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I.\RTE\_STM32F030_Flash-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x8-o .\flash\retarget.o --omf_browse .\flash\retarget.crf --depend .\flash\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5CEB79D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (Serial.h)(0x5320138E)
+F (.\Serial.c)(0x5DBBDF85)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I.\RTE\_STM32F030_Flash-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x8-o .\flash\serial.o --omf_browse .\flash\serial.crf --depend .\flash\serial.d)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f030x8.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\system_stm32f0xx.h)(0x56E9F63A)
+I (Serial.h)(0x5320138E)
+I (gpio.h)(0x5DDEF99D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (.\Blinky.c)(0x5EA422D1)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I.\RTE\_STM32F030_Flash-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x8-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f030x8.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\system_stm32f0xx.h)(0x56E9F63A)
+I (Serial.h)(0x5320138E)
+I (perh.h)(0x57CF9376)
+I (stdint.h)(0x57CF90F4)
+I (gpio.h)(0x5DDEF99D)
+I (SpiFF.h)(0x5DBC4992)
+I (spi.h)(0x5E7722E3)
+F (.\gpio.c)(0x5DBCE3A6)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I.\RTE\_STM32F030_Flash-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x8-o .\flash\gpio.o --omf_browse .\flash\gpio.crf --depend .\flash\gpio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f030x8.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\system_stm32f0xx.h)(0x56E9F63A)
+F (.\Spi.c)(0x5EA422BB)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I.\RTE\_STM32F030_Flash-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x8-o .\flash\spi.o --omf_browse .\flash\spi.crf --depend .\flash\spi.d)
+I (Spi.h)(0x5E7722E3)
+I (stdint.h)(0x57CF90F4)
+I (gpio.h)(0x5DDEF99D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (perh.h)(0x57CF9376)
+F (.\SpiFF.c)(0x57CF915E)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I.\RTE\_STM32F030_Flash-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x8-o .\flash\spiff.o --omf_browse .\flash\spiff.crf --depend .\flash\spiff.d)
+I (Spi.h)(0x5E7722E3)
+I (stdint.h)(0x57CF90F4)
+I (SpiFF.h)(0x5DBC4992)
+I (gpio.h)(0x5DDEF99D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+F (.\ssd2828.c)(0x5EA41EBE)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I.\RTE\_STM32F030_Flash-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x8-o .\flash\ssd2828.o --omf_browse .\flash\ssd2828.crf --depend .\flash\ssd2828.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ssd2828.h)(0x5EA42119)
+I (gpio.h)(0x5DDEF99D)
+F (.\ssd2828.h)(0x5EA42119)()
+F (.\perh.c)(0x5EA4242E)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I.\RTE\_STM32F030_Flash-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x8-o .\flash\perh.o --omf_browse .\flash\perh.crf --depend .\flash\perh.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (perh.h)(0x57CF9376)
+I (stdint.h)(0x57CF90F4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f030x8.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\system_stm32f0xx.h)(0x56E9F63A)
+I (gpio.h)(0x5DDEF99D)
+F (.\Abstract.txt)(0x54E3F2D2)()
+F (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Boards\ST\STM32F030-Discovery\Common\Buttons_STM32F030-Discovery.c)(0x54E42660)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I.\RTE\_STM32F030_Flash-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x8-o .\flash\buttons_stm32f030-discovery.o --omf_browse .\flash\buttons_stm32f030-discovery.crf --depend .\flash\buttons_stm32f030-discovery.d)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f030x8.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\system_stm32f0xx.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board\Board_Buttons.h)(0x5876FFCC)
+F (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Boards\ST\STM32F030-Discovery\Common\LED_STM32F030-Discovery.c)(0x54E42660)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I.\RTE\_STM32F030_Flash-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x8-o .\flash\led_stm32f030-discovery.o --omf_browse .\flash\led_stm32f030-discovery.crf --depend .\flash\led_stm32f030-discovery.d)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f030x8.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\system_stm32f0xx.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board\Board_LED.h)(0x5876FFCC)
+F (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32NUCLEO_BSP\1.1.0\Boards\ST\NUCLEO-F030R8\Common\Buttons_NUCLEO_F030R8.c)(0x53F58420)()
+F (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32NUCLEO_BSP\1.1.0\Boards\ST\NUCLEO-F030R8\Common\LED_NUCLEO_F030R8.c)(0x53F58420)()
+F (RTE\Device\STM32F030C8\startup_stm32f030x8.s)(0x56E9F63A)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_STM32F030_Flash-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "STM32F030x8 SETA 1"--list .\flash\startup_stm32f030x8.lst --xref -o .\flash\startup_stm32f030x8.o --depend .\flash\startup_stm32f030x8.d)
+F (RTE\Device\STM32F030C8\system_stm32f0xx.c)(0x59AFE245)(--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I.\RTE\_STM32F030_Flash-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board-IC:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x8-o .\flash\system_stm32f0xx.o --omf_browse .\flash\system_stm32f0xx.crf --depend .\flash\system_stm32f0xx.d)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f030x8.h)(0x56E9F63A)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\system_stm32f0xx.h)(0x56E9F63A)
+F (RTE\Device\STM32F030R8\startup_stm32f030x8.s)(0x56E9F63A)()
+F (RTE\Device\STM32F030R8\system_stm32f0xx.c)(0x56E9F63A)()

@@ -1,0 +1,10 @@
+.\flash\ad9361_impl.o: ad9361_impl.c
+.\flash\ad9361_impl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\flash\ad9361_impl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\flash\ad9361_impl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\flash\ad9361_impl.o: stdint.h
+.\flash\ad9361_impl.o: ltc6948.h
+.\flash\ad9361_impl.o: ad9361_filter_taps.h
+.\flash\ad9361_impl.o: ad9361_gain_tables.h
+.\flash\ad9361_impl.o: ad9361_synth_lut.h
+.\flash\ad9361_impl.o: ad9361.h

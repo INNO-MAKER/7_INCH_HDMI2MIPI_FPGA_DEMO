@@ -1,0 +1,17 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   D:\tmp\ucf\sp605_ddr_test\ddr_test
+#Date/Time:
+#:T   Tue Aug 20 15:59:56 2019
+#------------------------------
+	#Reading sp605_ddr_test.ncd...
+	#Loading device for application Rf_Device from file '6slx45t.nph' in environment D:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "sp605_ddr_test" is an NCD, version 3.2, device xc6slx45t, package fgg484, speed -3
+	#Design creation date: 2019.08.20.07.49.55
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes

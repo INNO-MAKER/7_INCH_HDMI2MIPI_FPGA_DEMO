@@ -1,0 +1,27 @@
+Address
+0
+i32
+Design Name
+0
+s
+Flash Data Width
+8
+s
+Multiboot Bpi Chain
+
+s
+Multiboot Bpi Device
+
+s
+Multiboot Bpi Type
+
+s
+NumberOfChains
+1
+i32
+RSPin
+
+s
+RSPin Msb
+
+s

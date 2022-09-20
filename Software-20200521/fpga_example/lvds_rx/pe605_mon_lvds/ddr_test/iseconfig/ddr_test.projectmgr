@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="ddr_test" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/axi_fifo_2clk_new D:|tmp|ucf|sp605_ddr_test|ddr_test|accel_2d|vctrl|axi_fifo_2clk_new.v</ClosedNode>
+         <ClosedNode>/axi_fifo_2clk_new D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|vctrl|axi_fifo_2clk_new.v</ClosedNode>
+         <ClosedNode>/axi_fifo_2clk_new D:|work|hdmi_mipi_7inch|target_60Hz_public|mipi7inch|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|vctrl|axi_fifo_2clk_new.v</ClosedNode>
+         <ClosedNode>/axi_fifo_2clk_new D:|work|hdmi_mipi_7inch|target_60Hz|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|vctrl|axi_fifo_2clk_new.v</ClosedNode>
+         <ClosedNode>/axi_fifo_2clk_new D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|accel_2d|vctrl|axi_fifo_2clk_new.v/fifo_1clk - axi_fifo</ClosedNode>
+         <ClosedNode>/axi_fifo_2clk_new E:|hdmi_7inch_mipi|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|vctrl|axi_fifo_2clk_new.v</ClosedNode>
+         <ClosedNode>/axi_fifo_2clk_new G:|build|sp605|sp605_ddr_test|ddr_test|accel_2d|vctrl|axi_fifo_2clk_new.v</ClosedNode>
+         <ClosedNode>/ddrx_axi_modle D:|tmp|ucf|sp605_ddr_test|ddr_test|accel_2d|ddrx_axi_modle.v</ClosedNode>
+         <ClosedNode>/ddrx_axi_modle D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|ddrx_axi_modle.v</ClosedNode>
+         <ClosedNode>/ddrx_axi_modle D:|work|hdmi_mipi_7inch|target_60Hz_public|mipi7inch|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|ddrx_axi_modle.v</ClosedNode>
+         <ClosedNode>/ddrx_axi_modle D:|work|hdmi_mipi_7inch|target_60Hz|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|ddrx_axi_modle.v</ClosedNode>
+         <ClosedNode>/ddrx_axi_modle D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|accel_2d|ddrx_axi_modle.v</ClosedNode>
+         <ClosedNode>/ddrx_axi_modle E:|hdmi_7inch_mipi|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|ddrx_axi_modle.v</ClosedNode>
+         <ClosedNode>/ddrx_axi_modle G:|build|sp605|sp605_ddr_test|ddr_test|accel_2d|ddrx_axi_modle.v</ClosedNode>
+         <ClosedNode>/fhd_rotate E:|hdmi_7inch_mipi|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|fhd_rotate.v</ClosedNode>
+         <ClosedNode>/fhd_rotate_top D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|fhd_rotate_top.v</ClosedNode>
+         <ClosedNode>/fhd_rotate_top G:|build|sp605|sp605_ddr_test|ddr_test|accel_2d|fhd_rotate_top.v/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_4KB_align_i - axi_4KB_align</ClosedNode>
+         <ClosedNode>/fhd_rotate_top G:|build|sp605|sp605_ddr_test|ddr_test|accel_2d|fhd_rotate_top.v/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_intf_wrap_i - axi_intf_wrap</ClosedNode>
+         <ClosedNode>/fhd_rotate_top G:|build|sp605|sp605_ddr_test|ddr_test|accel_2d|fhd_rotate_top.v/fhd_rotate_i - fhd_rotate/ififo_i - axi_fifo</ClosedNode>
+         <ClosedNode>/fhd_rotate_top G:|build|sp605|sp605_ddr_test|ddr_test|accel_2d|fhd_rotate_top.v/fhd_rotate_i - fhd_rotate/tile2linear_i - tile2linear</ClosedNode>
+         <ClosedNode>/fhd_rotate_top G:|build|sp605|sp605_ddr_test|ddr_test|accel_2d|fhd_rotate_top.v/pix_o_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/fhd_rotate_top G:|build|sp605|sp605_ddr_test|ddr_test|accel_2d|fhd_rotate_top.v/vin_subsys_i - vin_subsys/dvp2axis_async_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/fhd_rotate_top G:|build|sp605|sp605_ddr_test|ddr_test|accel_2d|fhd_rotate_top.v/vin_subsys_i - vin_subsys/lfifo_i - axi_fifo</ClosedNode>
+         <ClosedNode>/mem_rw_test D:|tmp|ucf|sp605_ddr_test|ddr_test|accel_2d|mem_rw_test.v</ClosedNode>
+         <ClosedNode>/mem_rw_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|accel_2d|mem_rw_test.v</ClosedNode>
+         <ClosedNode>/mem_rw_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|mem_rw_test.v</ClosedNode>
+         <ClosedNode>/mem_rw_test D:|work|hdmi_mipi_7inch|target_60Hz_public|mipi7inch|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|mem_rw_test.v</ClosedNode>
+         <ClosedNode>/mem_rw_test D:|work|hdmi_mipi_7inch|target_60Hz|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|mem_rw_test.v</ClosedNode>
+         <ClosedNode>/mem_rw_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|accel_2d|mem_rw_test.v</ClosedNode>
+         <ClosedNode>/mem_rw_test E:|hdmi_7inch_mipi|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|mem_rw_test.v</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|tmp|ucf|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|tmp|ucf|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/pix_o_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|tmp|ucf|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|tmp|ucf|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter/ar_cc_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|tmp|ucf|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter/aw_cc_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|tmp|ucf|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter/r_cc_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|tmp|ucf|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter/w_cc_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_4KB_align_i - axi_4KB_align</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_intf_wrap_i - axi_intf_wrap</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/ififo_i - axi_fifo</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/tile2linear_i - tile2linear</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/pix_o_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys_2ppc/axi_fifo48_to_fifo24_i - axi_fifo48_to_fifo24</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys_2ppc/dvp2axis_async_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter/ar_cc_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter/aw_cc_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter/r_cc_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter/w_cc_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/top_nto1_pll_diff_rx_i - top_nto1_pll_diff_rx</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/top_nto1_pll_diff_rx_i - top_nto1_pll_diff_rx/inst_datain - serdes_1_to_n_data_s8_diff</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_4KB_align_i - axi_4KB_align</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_intf_wrap_i - axi_intf_wrap</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_intf_wrap_i - axi_intf_wrap/pack24to64_i - pack24to64</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_intf_wrap_i - axi_intf_wrap/rd_fifo - axi_fifo</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_intf_wrap_i - axi_intf_wrap/wr_fifo - axi_fifo</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/ififo_i - axi_fifo</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/tile2linear_i - tile2linear</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/pix_o_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys_2ppc</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys_2ppc/axi_fifo48_to_fifo24_i - axi_fifo48_to_fifo24</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys_2ppc/dvp2axis_async_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/disp_clk_crm - disp_clk_crm</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/mem_rw_test_i - mem_rw_test</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/spi_bridge_i - spi_bridge</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/top_nto1_pll_diff_rx_i - top_nto1_pll_diff_rx</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/yres_detect_i - yres_detect</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/pix_o_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys_2ppc</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|p1200p1080|xc16|sp605_ddr_test|ddr_test|sp605_ddr_test.v/top_nto1_pll_diff_rx_i - top_nto1_pll_diff_rx</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz_public|mipi7inch|fpga_example|lvds_rx|sp605_ddr_test|ddr_test|sp605_ddr_test.v/disp_clk_crm - disp_clk_crm</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz_public|mipi7inch|fpga_example|lvds_rx|sp605_ddr_test|ddr_test|sp605_ddr_test.v/disp_clk_crm_i - disp_clk_crm</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz_public|mipi7inch|fpga_example|lvds_rx|sp605_ddr_test|ddr_test|sp605_ddr_test.v/mem_rw_test_i - mem_rw_test</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz_public|mipi7inch|fpga_example|lvds_rx|sp605_ddr_test|ddr_test|sp605_ddr_test.v/top_nto1_pll_diff_rx_i - top_nto1_pll_diff_rx</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz_public|mipi7inch|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz_public|mipi7inch|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz_public|mipi7inch|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz_public|mipi7inch|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/disp_clk_crm - disp_clk_crm</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz_public|mipi7inch|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/top_nto1_pll_diff_rx_i - top_nto1_pll_diff_rx</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/pix_o_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys_2ppc</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys_2ppc/dvp2axis_async_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/spi_bridge_i - spi_bridge</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|target_60Hz|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/top_nto1_pll_diff_rx_i - top_nto1_pll_diff_rx</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_4KB_align_i - axi_4KB_align</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_intf_wrap_i - axi_intf_wrap/pack24to64_i - pack24to64</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_intf_wrap_i - axi_intf_wrap/rd_fifo - axi_fifo</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_intf_wrap_i - axi_intf_wrap/wr_fifo - axi_fifo</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/ififo_i - axi_fifo</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/tile2linear_i - tile2linear</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/pix_o_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys/dvp2axis_async_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys_2ppc/axi_fifo48_to_fifo24_i - axi_fifo48_to_fifo24</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys_2ppc/dvp2axis_async_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter</ClosedNode>
+         <ClosedNode>/sp605_ddr_test D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|sp605_ddr_test.v/top_nto1_pll_diff_rx_i - top_nto1_pll_diff_rx</ClosedNode>
+         <ClosedNode>/sp605_ddr_test E:|hdmi_7inch_mipi|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top</ClosedNode>
+         <ClosedNode>/sp605_ddr_test E:|hdmi_7inch_mipi|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/pix_o_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test E:|hdmi_7inch_mipi|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys</ClosedNode>
+         <ClosedNode>/sp605_ddr_test E:|hdmi_7inch_mipi|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter</ClosedNode>
+         <ClosedNode>/sp605_ddr_test E:|hdmi_7inch_mipi|xc16_p1200p1080|sp605_ddr_test|ddr_test|sp605_ddr_test.v/top_nto1_pll_diff_rx_i - top_nto1_pll_diff_rx</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_intf_wrap_i - axi_intf_wrap/pack24to64_i - pack24to64</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_intf_wrap_i - axi_intf_wrap/rd_fifo - axi_fifo</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/axi_intf_top_i - axi_intf_top/axi_intf_wrap_i - axi_intf_wrap/wr_fifo - axi_fifo</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/fhd_rotate_i - fhd_rotate/ififo_i - axi_fifo</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/pix_o_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/pix_o_fifo - axi_fifo_2clk/fifo_1clk - axi_fifo</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys/dvp2axis_async_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys/dvp2axis_async_fifo - axi_fifo_2clk/fifo_1clk - axi_fifo</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/UUT - fhd_rotate_top/vin_subsys_i - vin_subsys/lfifo_i - axi_fifo</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter/ar_cc_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter/aw_cc_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter/r_cc_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/sp605_ddr_test G:|build|sp605|sp605_ddr_test|ddr_test|sp605_ddr_test.v/axi_arbiter_i - axi_arbiter/w_cc_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/vin_subsys D:|work|hdmi_mipi_7inch|p1200p1080|xc16|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|vctrl|vin_subsys.v</ClosedNode>
+         <ClosedNode>/vin_subsys D:|work|hdmi_mipi_7inch|p1200p1080|xc16|sp605_ddr_test|ddr_test|accel_2d|vctrl|vin_subsys.v</ClosedNode>
+         <ClosedNode>/vin_subsys D:|work|hdmi_mipi_7inch|target_60Hz_public|mipi7inch|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|vctrl|vin_subsys.v</ClosedNode>
+         <ClosedNode>/vin_subsys D:|work|hdmi_mipi_7inch|target_60Hz|force_1080p|xc16_p1200p1080|sp605_ddr_test|ddr_test|accel_2d|vctrl|vin_subsys.v</ClosedNode>
+         <ClosedNode>/vin_subsys D:|work|hdmi_mipi_7inch|xc6slx25|sp605_ddr_test|ddr_test|accel_2d|vctrl|vin_subsys.v/dvp2axis_async_fifo - axi_fifo_2clk</ClosedNode>
+         <ClosedNode>/vin_subsys_2ppc D:|work|hdmi_mipi_7inch|p1200p1080|xc16|sp605_ddr_test|ddr_test|accel_2d|vctrl|vin_subsys_2ppc.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>sp605_ddr_test (D:/work/hdmi_mipi_7inch/target_60Hz_public/mipi7inch/fpga_example/lvds_rx/sp605_ddr_test/ddr_test/sp605_ddr_test.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001cf000000020000000000000000000000000200000064ffffffff000000810000000300000002000001cf0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>sp605_ddr_test (D:/work/hdmi_mipi_7inch/target_60Hz_public/mipi7inch/fpga_example/lvds_rx/sp605_ddr_test/ddr_test/sp605_ddr_test.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000265000000010000000100000000000000000000000064ffffffff000000810000000000000001000002650000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000da0000000100000000000000540000000100000000000000780000000100000000000001ec0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>axi_fifo.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000110000000010001000100000000000000000000000064ffffffff000000810000000000000001000001100000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000265000000010000000100000000000000000000000064ffffffff000000810000000000000001000002650000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000019d0000010101000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Generate Programming File</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000254000000010000000100000000000000000000000064ffffffff000000810000000000000001000002540000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Generate Programming File</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000265000000010000000100000000000000000000000064ffffffff000000810000000000000001000002650000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000265000000010000000100000000000000000000000064ffffffff000000810000000000000001000002650000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

@@ -1,0 +1,9 @@
+.\flash\dvbt_config.o: dvbt_config.c
+.\flash\dvbt_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\flash\dvbt_config.o: SpiFF.h
+.\flash\dvbt_config.o: stdint.h
+.\flash\dvbt_config.o: gpio.h
+.\flash\dvbt_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\dvbt_config.o: dvbt_config.h
+.\flash\dvbt_config.o: crc32.h
+.\flash\dvbt_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h

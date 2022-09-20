@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\work\hdmi_mipi_7inch\target_60Hz\force_1080p\xc16_p1200p1080\sp605_ddr_test\ddr_test\impact.xsl
+OUTFILE=D:\work\hdmi_mipi_7inch\target_60Hz\force_1080p\xc16_p1200p1080\sp605_ddr_test\ddr_test\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=D:\work\hdmi_mipi_7inch\target_60Hz\force_1080p\xc16_p1200p1080\sp605_ddr_test\ddr_test
+LICENSE=iMPACT
+USER_INFO=iMPACT

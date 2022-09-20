@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\work\hdmi_mipi_7inch\target_60Hz_public\mipi7inch\fpga_example\ssd2828_mipi_rgb\pe605_mipi_rgb_test\ddr_test\sp605_ddr_test.ncd
+OUTFILE=D:\work\hdmi_mipi_7inch\target_60Hz_public\mipi7inch\fpga_example\ssd2828_mipi_rgb\pe605_mipi_rgb_test\ddr_test\sp605_ddr_test.bit
+FAMILY=Spartan6
+PART=xc6slx16-3ftg256
+WORKINGDIR=D:\work\hdmi_mipi_7inch\target_60Hz_public\mipi7inch\fpga_example\ssd2828_mipi_rgb\pe605_mipi_rgb_test\ddr_test
+LICENSE=WebPack
+USER_INFO=_

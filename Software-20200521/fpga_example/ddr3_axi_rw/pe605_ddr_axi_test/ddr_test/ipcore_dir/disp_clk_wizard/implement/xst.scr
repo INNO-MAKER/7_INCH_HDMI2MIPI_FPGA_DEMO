@@ -1,0 +1,9 @@
+run
+-ifmt MIXED
+-top disp_clk_wizard_exdes
+-p xc6slx16-ftg256-3
+-ifn xst.prj
+-ofn disp_clk_wizard_exdes
+-keep_hierarchy soft 
+-equivalent_register_removal no 
+-max_fanout 65535

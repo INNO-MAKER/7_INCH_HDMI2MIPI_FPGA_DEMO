@@ -1,0 +1,13 @@
+.\flash\signature.o: signature.c
+.\flash\signature.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\flash\signature.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\signature.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\flash\signature.o: sha256.h
+.\flash\signature.o: signature.h
+.\flash\signature.o: spi.h
+.\flash\signature.o: stdint.h
+.\flash\signature.o: spiff.h
+.\flash\signature.o: gpio.h
+.\flash\signature.o: crc32.h
+.\flash\signature.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\signature.o: dvbt_config.h

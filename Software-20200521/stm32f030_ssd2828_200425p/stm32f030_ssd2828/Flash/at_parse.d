@@ -1,0 +1,13 @@
+.\flash\at_parse.o: at_parse.c
+.\flash\at_parse.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\flash\at_parse.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\at_parse.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\at_parse.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\flash\at_parse.o: at_parse.h
+.\flash\at_parse.o: ad9361.h
+.\flash\at_parse.o: ltc6948.h
+.\flash\at_parse.o: stdint.h
+.\flash\at_parse.o: gpio.h
+.\flash\at_parse.o: crc32.h
+.\flash\at_parse.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\at_parse.o: dvbt_config.h

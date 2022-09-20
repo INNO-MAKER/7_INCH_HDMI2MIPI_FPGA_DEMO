@@ -1,0 +1,10 @@
+.\flash\led_stm32f030-discovery.o: C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Boards\ST\STM32F030-Discovery\Common\LED_STM32F030-Discovery.c
+.\flash\led_stm32f030-discovery.o: C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h
+.\flash\led_stm32f030-discovery.o: C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f030x8.h
+.\flash\led_stm32f030-discovery.o: C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h
+.\flash\led_stm32f030-discovery.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\led_stm32f030-discovery.o: C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h
+.\flash\led_stm32f030-discovery.o: C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h
+.\flash\led_stm32f030-discovery.o: C:\Users\Tim.Yep\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h
+.\flash\led_stm32f030-discovery.o: C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\1.5.0\Device\Include\system_stm32f0xx.h
+.\flash\led_stm32f030-discovery.o: C:\Users\Tim.Yep\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board\Board_LED.h
